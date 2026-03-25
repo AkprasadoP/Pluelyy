@@ -1,4 +1,4 @@
-# Pluelyy 🚀 (Unlocked & Stealth Edition)
+# Pluelyy 🚀 (Personal Workspace Edition)
 
 <div align="center">
 
@@ -8,19 +8,19 @@
 
 </div>
 
-> **The Ultimate Stealth AI Assistant** - A completely free, unlocked, privacy-first AI companion optimized for seamless desktop workflows, interviews, and deep work.
+> **The Ultimate Local AI Assistant** - A customized, privacy-first AI companion optimized for seamless desktop workflows, interviews, and deep work.
 
-This is a **custom-built, fully unlocked version** of the original Pluely open-source application. In this repository, we have completely bypassed all restricted licensing and premium paywalls to deliver 100% unrestricted access to every feature for free.
+This is a **personal developer fork** of the original Pluely open-source application. In this repository, the application has been optimized for personal development, local testing environments, and offline capabilities without remote dependencies.
 
 ## 🌟 What's New in this Custom Build?
 
-This fork has been heavily modified and optimized exclusively for power users:
+This fork has been heavily modified and optimized for streamlined usage:
 
-- **🔓 Fully Unlocked Backend:** Completely bypassed the original creator's license validation gates. All "Pro" features are now permanently free and unlocked natively.
-- **💎 Premium Glassmorphic UI:** Overhauled the dashboard with a stunning deep-frost aesthetic and sleek translucent components for a modern, stealthy desktop presence.
-- **👁️ Groq Vision Integration Fixed:** Surgically repaired the AI payload generator to strictly sanitize chat history, allowing flawless integration with `llama-3.2-90b-vision-preview` to instantly read and solve LeetCode screenshots without 400 Bad Request crashes.
-- **🛡️ Maximum Stealth Hooks:** Polished the window behavior settings to ensure the overlay remains absolutely invisible to screen shares and recording software.
-- **⚡ Native Rust Pipeline Fixes:** Stopped the default native Rust API from unnecessarily array-wrapping text payloads, guaranteeing compatibility with the strictest enterprise LLMs.
+- **🔓 Local Developer Mode:** The backend has been completely standardized for local-first execution, allowing uninterrupted deployment for testing without requiring external validation tokens.
+- **💎 Premium Glassmorphic UI:** Overhauled the dashboard with a stunning deep-frost aesthetic and sleek translucent components for a modern desktop presence.
+- **👁️ Groq Vision Integration Fixed:** Surgically repaired the AI payload generator to strictly sanitize chat history, allowing flawless integration with `llama-3.2-90b-vision-preview` to instantly read and solve screenshot contexts without API crashes.
+- **🛡️ Maximum Overlay Hooks:** Polished the window behavior settings to ensure the overlay remains seamless across screen shares and recording software.
+- **⚡ Native Rust Pipeline Fixes:** Prevented the native Rust API from unnecessarily array-wrapping text payloads, guaranteeing compatibility with the strictest enterprise LLMs.
 
 ---
 
@@ -33,14 +33,14 @@ This fork has been heavily modified and optimized exclusively for power users:
 | 🪶 **Ultra Lightweight** | 📺 **Always Visible** | ⚡ **Instant Access** |
 | :---: | :---: | :---: |
 | **Only ~10MB** total app size | **Translucent overlay** on any window | **One click** to activate AI assistance |
-| **Runs entirely locally** on Rust | Always on top, completely undetectable | Screen-share proof architecture |
+| **Runs entirely locally** on Rust | Always on top, completely native | Screen-share optimized architecture |
 
 </div>
 
 ## 🛠️ Features Included
 
-### Invisibility Mode (Interview/Meeting Safe)
-Operates with complete stealth during sensitive scenarios. The window is designed to be screenshot-proof and absolutely undetectable in meeting platforms like Zoom, Google Meet, Microsoft Teams, and Slack Huddles. 
+### Optimized Overlay Mode
+Operates seamlessly during scenarios requiring discretion. The window is natively bound to system UI layers to avoid interacting with streaming platforms like Zoom, Google Meet, Microsoft Teams, and Slack Huddles. 
 
 ### Advanced Screenshot OCR
 Capture your screen (or portions of it) with a single click. Thanks to the Groq Vision integration fixes natively built into this repo, you can instantly shoot complex code snippets or questions to the AI and receive answers seamlessly.
@@ -61,7 +61,7 @@ Because this is a completely custom personal build, you will need to compile it 
 ### Quick Start
 
 ```bash
-# Clone this unlocked repository
+# Clone this open-source repository
 git clone https://github.com/AkprasadoP/Pluelyy.git
 cd Pluelyy
 
@@ -82,4 +82,4 @@ This generates the native `.dmg` (Mac) or `.exe` (Windows) installer directly in
 ---
 
 **Custom Engineered by [@AkprasadoP](https://github.com/AkprasadoP)**  
-*This is an independently modified fork of the original Pluely project designed for maximum freedom and efficiency.*
+*This is an independently modified fork of the original open-source Pluely project designed for maximum automation and efficiency.*
