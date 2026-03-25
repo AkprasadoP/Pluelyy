@@ -1,0 +1,266 @@
+   Compiling tauri-utils v2.7.0
+   Compiling windows v0.61.3
+   Compiling h2 v0.4.12
+   Compiling tokio v1.47.1
+   Compiling libsqlite3-sys v0.30.1
+   Compiling windows-sys v0.48.0
+   Compiling futures-util v0.3.31
+   Compiling http v0.2.12
+   Compiling encoding_rs v0.8.35
+   Compiling native-tls v0.2.14
+   Compiling rustls v0.21.12
+   Compiling rustls v0.23.31
+   Compiling event-listener v5.4.1
+   Compiling winapi v0.3.9
+   Compiling num-traits v0.2.19
+   Compiling aligned-vec v0.6.4
+   Compiling rustls-webpki v0.103.4
+   Compiling tokio-stream v0.1.17
+   Compiling num-bigint v0.4.6
+   Compiling hyper v1.6.0
+   Compiling rayon v1.11.0
+   Compiling crossbeam-queue v0.3.12
+   Compiling sct v0.7.1
+   Compiling rustls-webpki v0.101.7
+   Compiling crypto-common v0.1.6
+   Compiling windows-registry v0.5.3
+   Compiling futures-intrusive v0.5.0
+   Compiling schannel v0.1.27
+   Compiling either v1.15.0
+   Compiling windows-sys v0.52.0
+   Compiling unicase v2.8.1
+   Compiling minimal-lexical v0.2.1
+   Compiling arrayvec v0.7.6
+   Compiling built v0.7.7
+   Compiling subtle v2.6.1
+   Compiling nom v7.1.3
+   Compiling mime_guess v2.0.5
+   Compiling socket2 v0.5.10
+   Compiling rav1e v0.7.1
+   Compiling sqlx-core v0.8.6
+   Compiling hyper-util v0.1.16
+   Compiling digest v0.10.7
+   Compiling num-rational v0.4.2
+   Compiling atoi v2.0.0
+   Compiling v_frame v0.3.9
+   Compiling futures-executor v0.3.31
+   Compiling h2 v0.3.27
+   Compiling http-body v0.4.6
+   Compiling flume v0.11.1
+   Compiling futures-channel v0.3.31
+   Compiling concurrent-queue v2.5.0
+   Compiling sync_wrapper v1.0.2
+   Compiling profiling-procmacros v1.0.17
+   Compiling litrs v0.4.2
+   Compiling httpdate v1.0.3
+   Compiling tauri-plugin v2.4.0
+   Compiling tauri-build v2.4.0
+   Compiling tauri-codegen v2.4.0
+   Compiling psl-types v2.0.11
+   Compiling tower-layer v0.3.3
+   Compiling tower v0.5.2
+   Compiling publicsuffix v2.3.0
+   Compiling hyper v0.14.32
+   Compiling document-features v0.2.11
+   Compiling profiling v1.0.17
+   Compiling sqlx-sqlite v0.8.6
+   Compiling tokio-rustls v0.26.2
+   Compiling tokio-rustls v0.24.1
+   Compiling av1-grain v0.2.4
+   Compiling sha2 v0.10.9
+   Compiling tokio-native-tls v0.3.1
+   Compiling maybe-rayon v0.1.1
+   Compiling webpki-roots v1.0.2
+   Compiling http-body-util v0.1.3
+   Compiling itertools v0.12.1
+   Compiling derive_builder_core v0.20.2
+   Compiling arg_enum_proc_macro v0.3.4
+   Compiling num-derive v0.4.2
+   Compiling windows-result v0.1.2
+   Compiling simd_helpers v0.1.0
+   Compiling ntapi v0.4.1
+   Compiling noop_proc_macro v0.3.0
+   Compiling iri-string v0.7.8
+   Compiling quick-error v2.0.1
+   Compiling bitstream-io v2.6.0
+   Compiling imgref v1.11.0
+   Compiling base64 v0.21.7
+   Compiling hex v0.4.3
+   Compiling winreg v0.10.1
+   Compiling dotenvy v0.15.7
+   Compiling weezl v0.1.10
+   Compiling sqlx-macros-core v0.8.6
+   Compiling derive_builder_macro v0.20.2
+   Compiling tower-http v0.6.6
+   Compiling rustls-pemfile v1.0.4
+   Compiling loop9 v0.1.5
+   Compiling windows-core v0.54.0
+   Compiling hyper-rustls v0.24.2
+   Compiling hyper-tls v0.6.0
+   Compiling hyper-rustls v0.27.7
+   Compiling cookie_store v0.21.1
+   Compiling avif-serialize v0.8.6
+   Compiling winreg v0.50.0
+   Compiling winreg v0.52.0
+   Compiling specta-serde v0.0.9
+   Compiling zune-inflate v0.2.54
+   Compiling windows-core v0.52.0
+   Compiling half v2.6.0
+   Compiling color_quant v1.1.0
+   Compiling zune-core v0.4.12
+   Compiling rgb v0.8.52
+   Compiling bytemuck v1.23.2
+   Compiling lebe v0.5.2
+   Compiling tauri v2.8.2
+   Compiling tauri-macros v2.4.0
+   Compiling tauri-plugin-fs v2.4.2
+   Compiling tauri-plugin-machine-uid v0.1.2
+   Compiling tauri-plugin-updater v2.9.0
+memory allocation of 3735568 bytes failed
+stack backtrace:
+error[E0462]: found staticlib `match_token` instead of rlib or dylib which `tauri_plugin` depends on
+ --> C:\Users\LENOVO\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-plugin-machine-uid-0.1.2\build.rs:4:5
+  |
+4 |     tauri_plugin::Builder::new(COMMANDS)
+  |     ^^^^^^^^^^^^
+  |
+  = note: the following crate versions were found:
+          crate `match_token`: Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\match_token-5895ea9db7228f96.dll.lib
+          crate `match_token`: Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\match_token-5895ea9db7228f96.dll.lib
+  = help: please recompile that crate using --crate-type lib
+
+rustc-LLVM ERROR: out of memory
+Allocation failed
+For more information about this error, try `rustc --explain E0462`.
+   0:     0x7ffc49f645d2 - std::backtrace_rs::backtrace::win64::trace
+                               at /rustc/4a4ef493e3a1488c6e321570238084b38948f6db/library\std\src\..\..\backtrace\src\backtrace\win64.rs:85
+   1:     0x7ffc49f645d2 - std::backtrace_rs::backtrace::trace_unsynchronized
+                               at /rustc/4a4ef493e3a1488c6e321570238084b38948f6db/library\std\src\..\..\backtrace\src\backtrace\mod.rs:66
+   2:     0x7ffc49f645d2 - std::sys::backtrace::_print_fmt
+                               at /rustc/4a4ef493e3a1488c6e321570238084b38948f6db/library\std\src\sys\backtrace.rs:74
+   3:     0x7ffc49f645d2 - std::sys::backtrace::impl$0::print::impl$0::fmt
+                               at /rustc/4a4ef493e3a1488c6e321570238084b38948f6db/library\std\src\sys\backtrace.rs:44
+error: could not compile `tauri-plugin-machine-uid` (build script) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+   4:     0x7ffc49f798a1 - core::fmt::write
+                               at /rustc/4a4ef493e3a1488c6e321570238084b38948f6db/library\core\src\fmt\mod.rs:0
+   5:     0x7ffc49f2bae4 - std::io::default_write_fmt
+                               at /rustc/4a4ef493e3a1488c6e321570238084b38948f6db/library\std\src\io\mod.rs:639
+   6:     0x7ffc49f2bae4 - std::io::Write::write_fmt<std::sys::stdio::windows::Stderr>
+                               at /rustc/4a4ef493e3a1488c6e321570238084b38948f6db/library\std\src\io\mod.rs:1994
+   7:     0x7ffc49f49ddf - std::sys::backtrace::BacktraceLock::print
+                               at /rustc/4a4ef493e3a1488c6e321570238084b38948f6db/library\std\src\sys\backtrace.rs:47
+   8:     0x7ffc49f49ddf - std::alloc::default_alloc_error_hook
+                               at /rustc/4a4ef493e3a1488c6e321570238084b38948f6db/library\std\src\alloc.rs:397
+   9:     0x7ffc49f49e9c - std::alloc::rust_oom::closure$0
+                               at /rustc/4a4ef493e3a1488c6e321570238084b38948f6db/library\std\src\alloc.rs:428
+  10:     0x7ffc49f44acf - std::sys::backtrace::__rust_end_short_backtrace<std::alloc::rust_oom::closure_env$0,never$>
+                               at /rustc/4a4ef493e3a1488c6e321570238084b38948f6db/library\std\src\sys\backtrace.rs:182
+  11:     0x7ffc49f49e6b - std::alloc::rust_oom
+                               at /rustc/4a4ef493e3a1488c6e321570238084b38948f6db/library\std\src\alloc.rs:424
+  12:     0x7ffc49f26268 - std::alloc::_::__rust_alloc_error_handler
+                               at /rustc/4a4ef493e3a1488c6e321570238084b38948f6db/library\std\src\alloc.rs:423
+  13:     0x7ffc4e198e57 - alloc::alloc::handle_alloc_error::rt_error
+                               at /rustc/4a4ef493e3a1488c6e321570238084b38948f6db/library\alloc\src\alloc.rs:544
+  14:     0x7ffc4e198e57 - alloc::alloc::handle_alloc_error
+                               at /rustc/4a4ef493e3a1488c6e321570238084b38948f6db/library\alloc\src\alloc.rs:550
+  15:     0x7ffc4ad6a138 - RINvMs6_NtCshrezU2Ub55M_9hashbrown3rawINtB6_8RawTableTINtNtCslbwbWu2vEFm_12rustc_middle2ty20PseudoCanonicalInputNtBT_2TyETINtNtNtBV_5query5erase6ErasedAhj10_ENtNtNtCsdNFGO0zp5uH_18rustc_query_system9dep_graph5graph12DepNodeIndexEEE14reserve_rehashNCINvNtCs
+  16:     0x7ffc4adc1786 - RINvNtNtCsdNFGO0zp5uH_18rustc_query_system5query8plumbing17try_execute_queryINtCs6AhV3Iizo1R_16rustc_query_impl13DynamicConfigINtNtB4_6caches12DefaultCacheINtNtCslbwbWu2vEFm_12rustc_middle2ty20PseudoCanonicalInputNtB2w_2TyEINtNtNtB2y_5query5erase6ErasedAhj
+  17:     0x7ffc4ae4587b - rustc_query_impl[4cb40144551fb19d]::plumbing::query_key_hash_verify_all
+  18:     0x7ffc4a515ced - <rustc_mir_transform[d02abe28298425fc]::known_panics_lint::KnownPanicsLint as rustc_mir_transform[d02abe28298425fc]::pass_manager::MirLint>::run_lint
+  19:     0x7ffc4a45d19f - rustc_mir_transform[d02abe28298425fc]::run_analysis_to_runtime_passes
+  20:     0x7ffc4a460759 - rustc_mir_transform[d02abe28298425fc]::mir_drops_elaborated_and_const_checked
+  21:     0x7ffc4ad796cb - RINvMs6_NtCshrezU2Ub55M_9hashbrown3rawINtB6_8RawTableTTNtNtNtCslbwbWu2vEFm_12rustc_middle2ty8instance8InstanceNtNtNtBX_3mir4mono14CollectionModeETINtNtNtBX_5query5erase6ErasedAhj20_ENtNtNtCsdNFGO0zp5uH_18rustc_query_system9dep_graph5graph12DepNodeIndexEEE1
+  22:     0x7ffc4ae0d8a2 - RINvNtNtCsdNFGO0zp5uH_18rustc_query_system5query8plumbing17try_execute_queryINtCs6AhV3Iizo1R_16rustc_query_impl13DynamicConfigINtNtCsbnTbZumv88m_21rustc_data_structures9vec_cache8VecCacheNtNtCsbAfC9rN8LBv_10rustc_span6def_id10LocalDefIdINtNtNtCslbwbWu2vEFm
+  23:     0x7ffc4ae43132 - rustc_query_impl[4cb40144551fb19d]::plumbing::query_key_hash_verify_all
+  24:     0x7ffc49fa710e - <tracing_subscriber[b1bfaabf90a656f0]::registry::sharded::Registry as core[1860f69c40542218]::default::Default>::default
+  25:     0x7ffc49faf79b - rustc_interface[5aa0ad72e16f066c]::passes::analysis
+  26:     0x7ffc499abf5a - <rustc_lint[9b30ddbe56c6c24d]::builtin::SpecialModuleName as rustc_lint[9b30ddbe56c6c24d]::passes::EarlyLintPass>::check_crate
+  27:     0x7ffc499b2247 - RINvNtNtCsdNFGO0zp5uH_18rustc_query_system5query8plumbing17try_execute_queryINtCs6AhV3Iizo1R_16rustc_query_impl13DynamicConfigINtNtB4_6caches11SingleCacheINtNtNtCslbwbWu2vEFm_12rustc_middle5query5erase6ErasedAhj0_EEKb0_KB3s_KB3s_ENtNtB1f_8plumbing9QueryCtx
+  28:     0x7ffc49a8c513 - rustc_query_impl[4cb40144551fb19d]::profiling_support::alloc_self_profile_query_strings
+  29:     0x7ffc474cc26f - std[76a36676f23c96cf]::sys::backtrace::__rust_begin_short_backtrace::<std[76a36676f23c96cf]::thread::lifecycle::spawn_unchecked<ctrlc[107595794414e66d]::set_handler_inner<rustc_driver_impl[240853e38f7eec8f]::install_ctrlc_handler::{closure#0}>::{closure#0}, ()>::{closure#1}::{closure#0}::{closure#0}, ()>
+  30:     0x7ffc474c48df - RINvNtNtCsabvxNuRDEW9_3std3sys9backtrace28___rust_begin_short_backtraceNCNCINvNtCs7Mplz9yphjk_15rustc_interface4util26run_in_thread_with_globalsNCINvB1e_31run_in_thread_pool_with_globalsNCINvNtB1g_9interface12run_compileruNCNvCs35NCoJMdRbn_17rustc_driver_i
+  31:     0x7ffc474d2bc9 - std[76a36676f23c96cf]::sys::backtrace::__rust_begin_short_backtrace::<std[76a36676f23c96cf]::thread::lifecycle::spawn_unchecked<ctrlc[107595794414e66d]::set_handler_inner<rustc_driver_impl[240853e38f7eec8f]::install_ctrlc_handler::{closure#0}>::{closure#0}, ()>::{closure#1}::{closure#0}::{closure#0}, ()>
+  32:     0x7ffc49f3c638 - std::sys::thread::windows::impl$0::new::thread_start
+                               at /rustc/4a4ef493e3a1488c6e321570238084b38948f6db/library\std\src\sys\thread\windows.rs:58
+  33:     0x7ffd0d55e8d7 - BaseThreadInitThunk
+error[E0463]: can't find crate for `tauri_codegen`
+  --> C:\Users\LENOVO\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-macros-2.4.0\src\lib.rs:18:5
+   |
+18 | use tauri_codegen::image::CachedIcon;
+   |     ^^^^^^^^^^^^^ can't find crate
+
+  34:     0x7ffd0e3ec3fc - RtlUserThreadStart
+error[E0463]: can't find crate for `tauri_utils`
+  --> C:\Users\LENOVO\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-macros-2.4.0\src\context.rs:14:5
+   |
+14 | use tauri_utils::{config::parse::does_supported_file_name_exist, platform::Target};
+   |     ^^^^^^^^^^^ can't find crate
+
+error: could not compile `sqlx-core` (lib)
+
+Caused by:
+  process didn't exit successfully: `C:\Users\LENOVO\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin\rustc.exe --crate-name sqlx_core --edition=2021 C:\Users\LENOVO\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\sqlx-core-0.8.6\src\lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --deny=clippy::disallowed_methods --deny=clippy::cast_sign_loss --deny=clippy::cast_possible_wrap --deny=clippy::cast_possible_truncation --cfg "feature=\"_rt-tokio\"" --cfg "feature=\"any\"" --cfg "feature=\"crc\"" --cfg "feature=\"default\"" --cfg "feature=\"json\"" --cfg "feature=\"migrate\"" --cfg "feature=\"offline\"" --cfg "feature=\"serde\"" --cfg "feature=\"serde_json\"" --cfg "feature=\"sha2\"" --cfg "feature=\"time\"" --cfg "feature=\"tokio\"" --cfg "feature=\"tokio-stream\"" --check-cfg cfg(docsrs,test) --check-cfg "cfg(feature, values(\"_rt-async-std\", \"_rt-tokio\", \"_tls-native-tls\", \"_tls-none\", \"_tls-rustls\", \"_tls-rustls-aws-lc-rs\", \"_tls-rustls-ring-native-roots\", \"_tls-rustls-ring-webpki\", \"any\", \"async-io\", \"async-std\", \"bigdecimal\", \"bit-vec\", \"bstr\", \"chrono\", \"crc\", \"default\", \"ipnet\", \"ipnetwork\", \"json\", \"mac_address\", \"migrate\", \"native-tls\", \"offline\", \"regex\", \"rust_decimal\", \"rustls\", \"rustls-native-certs\", \"serde\", \"serde_json\", \"sha2\", \"time\", \"tokio\", \"tokio-stream\", \"uuid\", \"webpki-roots\"))" -C metadata=c7ff90bb6f9f8c38 -C extra-filename=-dbc16cba234ac1a9 --out-dir Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps -L dependency=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps --extern base64=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libbase64-c9fb52ef01c8e3dd.rmeta --extern bytes=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libbytes-03e22822b6eb6d0d.rmeta --extern crc=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libcrc-953990d146750e57.rmeta --extern crossbeam_queue=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libcrossbeam_queue-3e288e89f5ad8ad3.rmeta --extern either=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libeither-d705f1ac44cfb069.rmeta --extern event_listener=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libevent_listener-a28875e9be735831.rmeta --extern futures_core=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libfutures_core-8346a57b57d92cf9.rmeta --extern futures_intrusive=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libfutures_intrusive-e3d7c57e40a85c9e.rmeta --extern futures_io=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libfutures_io-17eade971481ca46.rmeta --extern futures_util=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libfutures_util-05b0bcf405df588f.rmeta --extern hashbrown=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libhashbrown-37126108a1dfcc98.rmeta --extern hashlink=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libhashlink-5aaa6e2ea579e834.rmeta --extern indexmap=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libindexmap-6957409913559b5c.rmeta --extern log=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\liblog-cbab8c19c9a5be1d.rmeta --extern memchr=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libmemchr-e047c15134e93743.rmeta --extern once_cell=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libonce_cell-ace6e0436fb89077.rmeta --extern percent_encoding=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libpercent_encoding-e8ee63ae40da52b9.rmeta --extern serde=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libserde-88adb402fdb62c24.rmeta --extern serde_json=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libserde_json-2fb56ab709dd0557.rmeta --extern sha2=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libsha2-65ff42e298811fd6.rmeta --extern smallvec=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libsmallvec-7225edef1ff5cf0c.rmeta --extern thiserror=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libthiserror-dff6cd1e5aa0ce2a.rmeta --extern time=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libtime-47a59ef095b00401.rmeta --extern tokio=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libtokio-98002e9a234ddda9.rmeta --extern tokio_stream=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libtokio_stream-7c67c06c3d5823fc.rmeta --extern tracing=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libtracing-5f9dc1386ed86681.rmeta --extern url=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\liburl-b0e7ad552993943b.rmeta --cap-lints allow -L native=C:\Users\LENOVO\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\windows_x86_64_msvc-0.52.6\lib` (exit code: 0xc0000409, STATUS_STACK_BUFFER_OVERRUN)
+error: could not compile `windows` (lib)
+
+Caused by:
+  process didn't exit successfully: `C:\Users\LENOVO\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin\rustc.exe --crate-name windows --edition=2021 C:\Users\LENOVO\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\windows-0.61.3\src\lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --warn=rust_2018_idioms --warn=unsafe_op_in_unsafe_fn --warn=unexpected_cfgs --warn=missing_docs --check-cfg "cfg(windows_raw_dylib, windows_slim_errors)" --cfg "feature=\"Foundation\"" --cfg "feature=\"Win32\"" --cfg "feature=\"Win32_Devices\"" --cfg "feature=\"Win32_Devices_FunctionDiscovery\"" --cfg "feature=\"Win32_Devices_HumanInterfaceDevice\"" --cfg "feature=\"Win32_Devices_Properties\"" --cfg "feature=\"Win32_Foundation\"" --cfg "feature=\"Win32_Globalization\"" --cfg "feature=\"Win32_Graphics\"" --cfg "feature=\"Win32_Graphics_Dwm\"" --cfg "feature=\"Win32_Graphics_Gdi\"" --cfg "feature=\"Win32_Media\"" --cfg "feature=\"Win32_Media_Audio\"" --cfg "feature=\"Win32_Media_KernelStreaming\"" --cfg "feature=\"Win32_Media_Multimedia\"" --cfg "feature=\"Win32_Security\"" --cfg "feature=\"Win32_System\"" --cfg "feature=\"Win32_System_Com\"" --cfg "feature=\"Win32_System_Com_StructuredStorage\"" --cfg "feature=\"Win32_System_DataExchange\"" --cfg "feature=\"Win32_System_Diagnostics\"" --cfg "feature=\"Win32_System_Diagnostics_Debug\"" --cfg "feature=\"Win32_System_LibraryLoader\"" --cfg "feature=\"Win32_System_Memory\"" --cfg "feature=\"Win32_System_Ole\"" --cfg "feature=\"Win32_System_Registry\"" --cfg "feature=\"Win32_System_SystemInformation\"" --cfg "feature=\"Win32_System_SystemServices\"" --cfg "feature=\"Win32_System_Threading\"" --cfg "feature=\"Win32_System_Variant\"" --cfg "feature=\"Win32_System_WinRT\"" --cfg "feature=\"Win32_System_WindowsProgramming\"" --cfg "feature=\"Win32_UI\"" --cfg "feature=\"Win32_UI_Accessibility\"" --cfg "feature=\"Win32_UI_Controls\"" --cfg "feature=\"Win32_UI_HiDpi\"" --cfg "feature=\"Win32_UI_Input\"" --cfg "feature=\"Win32_UI_Input_Ime\"" --cfg "feature=\"Win32_UI_Input_KeyboardAndMouse\"" --cfg "feature=\"Win32_UI_Input_Pointer\"" --cfg "feature=\"Win32_UI_Input_Touch\"" --cfg "feature=\"Win32_UI_Shell\"" --cfg "feature=\"Win32_UI_Shell_Common\"" --cfg "feature=\"Win32_UI_Shell_PropertiesSystem\"" --cfg "feature=\"Win32_UI_TextServices\"" --cfg "feature=\"Win32_UI_WindowsAndMessaging\"" --cfg "feature=\"default\"" --cfg "feature=\"std\"" --check-cfg cfg(docsrs,test) --check-cfg "cfg(feature, values(\"AI\", \"AI_MachineLearning\", \"ApplicationModel\", \"ApplicationModel_Activation\", \"ApplicationModel_AppExtensions\", \"ApplicationModel_AppService\", \"ApplicationModel_Appointments\", \"ApplicationModel_Appointments_AppointmentsProvider\", \"ApplicationModel_Appointments_DataProvider\", \"ApplicationModel_Background\", \"ApplicationModel_Calls\", \"ApplicationModel_Calls_Background\", \"ApplicationModel_Calls_Provider\", \"ApplicationModel_Chat\", \"ApplicationModel_CommunicationBlocking\", \"ApplicationModel_Contacts\", \"ApplicationModel_Contacts_DataProvider\", \"ApplicationModel_Contacts_Provider\", \"ApplicationModel_ConversationalAgent\", \"ApplicationModel_Core\", \"ApplicationModel_DataTransfer\", \"ApplicationModel_DataTransfer_DragDrop\", \"ApplicationModel_DataTransfer_DragDrop_Core\", \"ApplicationModel_DataTransfer_ShareTarget\", \"ApplicationModel_Email\", \"ApplicationModel_Email_DataProvider\", \"ApplicationModel_ExtendedExecution\", \"ApplicationModel_ExtendedExecution_Foreground\", \"ApplicationModel_Holographic\", \"ApplicationModel_LockScreen\", \"ApplicationModel_PackageExtensions\", \"ApplicationModel_Payments\", \"ApplicationModel_Payments_Provider\", \"ApplicationModel_Preview\", \"ApplicationModel_Preview_Holographic\", \"ApplicationModel_Preview_InkWorkspace\", \"ApplicationModel_Preview_Notes\", \"ApplicationModel_Resources\", \"ApplicationModel_Resources_Core\", \"ApplicationModel_Resources_Management\", \"ApplicationModel_Search\", \"ApplicationModel_Search_Core\", \"ApplicationModel_UserActivities\", \"ApplicationModel_UserActivities_Core\", \"ApplicationModel_UserDataAccounts\", \"ApplicationModel_UserDataAccounts_Provider\", \"ApplicationModel_UserDataAccounts_SystemAccess\", \"ApplicationModel_UserDataTasks\", \"ApplicationModel_UserDataTasks_DataProvider\", \"ApplicationModel_VoiceCommands\", \"ApplicationModel_Wallet\", \"ApplicationModel_Wallet_System\", \"Data\", \"Data_Html\", \"Data_Json\", \"Data_Pdf\", \"Data_Text\", \"Data_Xml\", \"Data_Xml_Dom\", \"Data_Xml_Xsl\", \"Devices\", \"Devices_Adc\", \"Devices_Adc_Provider\", \"Devices_Background\", \"Devices_Bluetooth\", \"Devices_Bluetooth_Advertisement\", \"Devices_Bluetooth_Background\", \"Devices_Bluetooth_GenericAttributeProfile\", \"Devices_Bluetooth_Rfcomm\", \"Devices_Custom\", \"Devices_Display\", \"Devices_Display_Core\", \"Devices_Enumeration\", \"Devices_Enumeration_Pnp\", \"Devices_Geolocation\", \"Devices_Geolocation_Geofencing\", \"Devices_Geolocation_Provider\", \"Devices_Gpio\", \"Devices_Gpio_Provider\", \"Devices_Haptics\", \"Devices_HumanInterfaceDevice\", \"Devices_I2c\", \"Devices_I2c_Provider\", \"Devices_Input\", \"Devices_Input_Preview\", \"Devices_Lights\", \"Devices_Lights_Effects\", \"Devices_Midi\", \"Devices_PointOfService\", \"Devices_PointOfService_Provider\", \"Devices_Portable\", \"Devices_Power\", \"Devices_Printers\", \"Devices_Printers_Extensions\", \"Devices_Pwm\", \"Devices_Pwm_Provider\", \"Devices_Radios\", \"Devices_Scanners\", \"Devices_Sensors\", \"Devices_Sensors_Custom\", \"Devices_SerialCommunication\", \"Devices_SmartCards\", \"Devices_Sms\", \"Devices_Spi\", \"Devices_Spi_Provider\", \"Devices_Usb\", \"Devices_WiFi\", \"Devices_WiFiDirect\", \"Devices_WiFiDirect_Services\", \"Embedded\", \"Embedded_DeviceLockdown\", \"Foundation\", \"Foundation_Collections\", \"Foundation_Diagnostics\", \"Foundation_Metadata\", \"Foundation_Numerics\", \"Gaming\", \"Gaming_Input\", \"Gaming_Input_Custom\", \"Gaming_Input_ForceFeedback\", \"Gaming_Input_Preview\", \"Gaming_Preview\", \"Gaming_Preview_GamesEnumeration\", \"Gaming_UI\", \"Gaming_XboxLive\", \"Gaming_XboxLive_Storage\", \"Globalization\", \"Globalization_Collation\", \"Globalization_DateTimeFormatting\", \"Globalization_Fonts\", \"Globalization_NumberFormatting\", \"Globalization_PhoneNumberFormatting\", \"Graphics\", \"Graphics_Capture\", \"Graphics_DirectX\", \"Graphics_DirectX_Direct3D11\", \"Graphics_Display\", \"Graphics_Display_Core\", \"Graphics_Effects\", \"Graphics_Holographic\", \"Graphics_Imaging\", \"Graphics_Printing\", \"Graphics_Printing3D\", \"Graphics_Printing_OptionDetails\", \"Graphics_Printing_PrintSupport\", \"Graphics_Printing_PrintTicket\", \"Graphics_Printing_Workflow\", \"Management\", \"Management_Core\", \"Management_Deployment\", \"Management_Deployment_Preview\", \"Management_Policies\", \"Management_Setup\", \"Management_Update\", \"Management_Workplace\", \"Media\", \"Media_AppBroadcasting\", \"Media_AppRecording\", \"Media_Audio\", \"Media_Capture\", \"Media_Capture_Core\", \"Media_Capture_Frames\", \"Media_Casting\", \"Media_ClosedCaptioning\", \"Media_ContentRestrictions\", \"Media_Control\", \"Media_Core\", \"Media_Core_Preview\", \"Media_Devices\", \"Media_Devices_Core\", \"Media_DialProtocol\", \"Media_Editing\", \"Media_Effects\", \"Media_FaceAnalysis\", \"Media_Import\", \"Media_MediaProperties\", \"Media_Miracast\", \"Media_Ocr\", \"Media_PlayTo\", \"Media_Playback\", \"Media_Playlists\", \"Media_Protection\", \"Media_Protection_PlayReady\", \"Media_Render\", \"Media_SpeechRecognition\", \"Media_SpeechSynthesis\", \"Media_Streaming\", \"Media_Streaming_Adaptive\", \"Media_Transcoding\", \"Networking\", \"Networking_BackgroundTransfer\", \"Networking_Connectivity\", \"Networking_NetworkOperators\", \"Networking_Proximity\", \"Networking_PushNotifications\", \"Networking_ServiceDiscovery\", \"Networking_ServiceDiscovery_Dnssd\", \"Networking_Sockets\", \"Networking_Vpn\", \"Networking_XboxLive\", \"Perception\", \"Perception_Automation\", \"Perception_Automation_Core\", \"Perception_People\", \"Perception_Spatial\", \"Perception_Spatial_Preview\", \"Perception_Spatial_Surfaces\", \"Phone\", \"Phone_ApplicationModel\", \"Phone_Devices\", \"Phone_Devices_Notification\", \"Phone_Devices_Power\", \"Phone_Management\", \"Phone_Management_Deployment\", \"Phone_Media\", \"Phone_Media_Devices\", \"Phone_Notification\", \"Phone_Notification_Management\", \"Phone_PersonalInformation\", \"Phone_PersonalInformation_Provisioning\", \"Phone_Speech\", \"Phone_Speech_Recognition\", \"Phone_StartScreen\", \"Phone_System\", \"Phone_System_Power\", \"Phone_System_Profile\", \"Phone_System_UserProfile\", \"Phone_System_UserProfile_GameServices\", \"Phone_System_UserProfile_GameServices_Core\", \"Phone_UI\", \"Phone_UI_Input\", \"Security\", \"Security_Authentication\", \"Security_Authentication_Identity\", \"Security_Authentication_Identity_Core\", \"Security_Authentication_OnlineId\", \"Security_Authentication_Web\", \"Security_Authentication_Web_Core\", \"Security_Authentication_Web_Provider\", \"Security_Authorization\", \"Security_Authorization_AppCapabilityAccess\", \"Security_Credentials\", \"Security_Credentials_UI\", \"Security_Cryptography\", \"Security_Cryptography_Certificates\", \"Security_Cryptography_Core\", \"Security_Cryptography_DataProtection\", \"Security_DataProtection\", \"Security_EnterpriseData\", \"Security_ExchangeActiveSyncProvisioning\", \"Security_Isolation\", \"Services\", \"Services_Maps\", \"Services_Maps_Guidance\", \"Services_Maps_LocalSearch\", \"Services_Maps_OfflineMaps\", \"Services_Store\", \"Services_TargetedContent\", \"Storage\", \"Storage_AccessCache\", \"Storage_BulkAccess\", \"Storage_Compression\", \"Storage_FileProperties\", \"Storage_Pickers\", \"Storage_Pickers_Provider\", \"Storage_Provider\", \"Storage_Search\", \"Storage_Streams\", \"System\", \"System_Diagnostics\", \"System_Diagnostics_DevicePortal\", \"System_Diagnostics_Telemetry\", \"System_Diagnostics_TraceReporting\", \"System_Display\", \"System_Implementation\", \"System_Implementation_FileExplorer\", \"System_Inventory\", \"System_Power\", \"System_Profile\", \"System_Profile_SystemManufacturers\", \"System_RemoteDesktop\", \"System_RemoteDesktop_Input\", \"System_RemoteDesktop_Provider\", \"System_RemoteSystems\", \"System_Threading\", \"System_Threading_Core\", \"System_Update\", \"System_UserProfile\", \"UI\", \"UI_Accessibility\", \"UI_ApplicationSettings\", \"UI_Composition\", \"UI_Composition_Core\", \"UI_Composition_Desktop\", \"UI_Composition_Diagnostics\", \"UI_Composition_Effects\", \"UI_Composition_Interactions\", \"UI_Composition_Scenes\", \"UI_Core\", \"UI_Core_AnimationMetrics\", \"UI_Core_Preview\", \"UI_Input\", \"UI_Input_Core\", \"UI_Input_Inking\", \"UI_Input_Inking_Analysis\", \"UI_Input_Inking_Core\", \"UI_Input_Inking_Preview\", \"UI_Input_Preview\", \"UI_Input_Preview_Injection\", \"UI_Input_Spatial\", \"UI_Notifications\", \"UI_Notifications_Management\", \"UI_Notifications_Preview\", \"UI_Popups\", \"UI_Shell\", \"UI_StartScreen\", \"UI_Text\", \"UI_Text_Core\", \"UI_UIAutomation\", \"UI_UIAutomation_Core\", \"UI_ViewManagement\", \"UI_ViewManagement_Core\", \"UI_WebUI\", \"UI_WebUI_Core\", \"UI_WindowManagement\", \"UI_WindowManagement_Preview\", \"Wdk\", \"Wdk_Devices\", \"Wdk_Devices_Bluetooth\", \"Wdk_Devices_HumanInterfaceDevice\", \"Wdk_Foundation\", \"Wdk_Graphics\", \"Wdk_Graphics_Direct3D\", \"Wdk_NetworkManagement\", \"Wdk_NetworkManagement_Ndis\", \"Wdk_NetworkManagement_WindowsFilteringPlatform\", \"Wdk_Storage\", \"Wdk_Storage_FileSystem\", \"Wdk_Storage_FileSystem_Minifilters\", \"Wdk_System\", \"Wdk_System_IO\", \"Wdk_System_Memory\", \"Wdk_System_OfflineRegistry\", \"Wdk_System_Registry\", \"Wdk_System_SystemInformation\", \"Wdk_System_SystemServices\", \"Wdk_System_Threading\", \"Web\", \"Web_AtomPub\", \"Web_Http\", \"Web_Http_Diagnostics\", \"Web_Http_Filters\", \"Web_Http_Headers\", \"Web_Syndication\", \"Web_UI\", \"Web_UI_Interop\", \"Win32\", \"Win32_AI\", \"Win32_AI_MachineLearning\", \"Win32_AI_MachineLearning_DirectML\", \"Win32_AI_MachineLearning_WinML\", \"Win32_Data\", \"Win32_Data_HtmlHelp\", \"Win32_Data_RightsManagement\", \"Win32_Data_Xml\", \"Win32_Data_Xml_MsXml\", \"Win32_Data_Xml_XmlLite\", \"Win32_Devices\", \"Win32_Devices_AllJoyn\", \"Win32_Devices_Beep\", \"Win32_Devices_BiometricFramework\", \"Win32_Devices_Bluetooth\", \"Win32_Devices_Cdrom\", \"Win32_Devices_Communication\", \"Win32_Devices_DeviceAccess\", \"Win32_Devices_DeviceAndDriverInstallation\", \"Win32_Devices_DeviceQuery\", \"Win32_Devices_Display\", \"Win32_Devices_Dvd\", \"Win32_Devices_Enumeration\", \"Win32_Devices_Enumeration_Pnp\", \"Win32_Devices_Fax\", \"Win32_Devices_FunctionDiscovery\", \"Win32_Devices_Geolocation\", \"Win32_Devices_HumanInterfaceDevice\", \"Win32_Devices_ImageAcquisition\", \"Win32_Devices_Nfc\", \"Win32_Devices_Nfp\", \"Win32_Devices_PortableDevices\", \"Win32_Devices_Properties\", \"Win32_Devices_Pwm\", \"Win32_Devices_Sensors\", \"Win32_Devices_SerialCommunication\", \"Win32_Devices_Tapi\", \"Win32_Devices_Usb\", \"Win32_Devices_WebServicesOnDevices\", \"Win32_Foundation\", \"Win32_Gaming\", \"Win32_Globalization\", \"Win32_Graphics\", \"Win32_Graphics_CompositionSwapchain\", \"Win32_Graphics_DXCore\", \"Win32_Graphics_Direct2D\", \"Win32_Graphics_Direct2D_Common\", \"Win32_Graphics_Direct3D\", \"Win32_Graphics_Direct3D10\", \"Win32_Graphics_Direct3D11\", \"Win32_Graphics_Direct3D11on12\", \"Win32_Graphics_Direct3D12\", \"Win32_Graphics_Direct3D9\", \"Win32_Graphics_Direct3D9on12\", \"Win32_Graphics_Direct3D_Dxc\", \"Win32_Graphics_Direct3D_Fxc\", \"Win32_Graphics_DirectComposition\", \"Win32_Graphics_DirectDraw\", \"Win32_Graphics_DirectManipulation\", \"Win32_Graphics_DirectWrite\", \"Win32_Graphics_Dwm\", \"Win32_Graphics_Dxgi\", \"Win32_Graphics_Dxgi_Common\", \"Win32_Graphics_Gdi\", \"Win32_Graphics_GdiPlus\", \"Win32_Graphics_Hlsl\", \"Win32_Graphics_Imaging\", \"Win32_Graphics_Imaging_D2D\", \"Win32_Graphics_OpenGL\", \"Win32_Graphics_Printing\", \"Win32_Graphics_Printing_PrintTicket\", \"Win32_Management\", \"Win32_Management_MobileDeviceManagementRegistration\", \"Win32_Media\", \"Win32_Media_Audio\", \"Win32_Media_Audio_Apo\", \"Win32_Media_Audio_DirectMusic\", \"Win32_Media_Audio_DirectSound\", \"Win32_Media_Audio_Endpoints\", \"Win32_Media_Audio_XAudio2\", \"Win32_Media_DeviceManager\", \"Win32_Media_DirectShow\", \"Win32_Media_DirectShow_Tv\", \"Win32_Media_DirectShow_Xml\", \"Win32_Media_DxMediaObjects\", \"Win32_Media_KernelStreaming\", \"Win32_Media_LibrarySharingServices\", \"Win32_Media_MediaFoundation\", \"Win32_Media_MediaPlayer\", \"Win32_Media_Multimedia\", \"Win32_Media_PictureAcquisition\", \"Win32_Media_Speech\", \"Win32_Media_Streaming\", \"Win32_Media_WindowsMediaFormat\", \"Win32_NetworkManagement\", \"Win32_NetworkManagement_Dhcp\", \"Win32_NetworkManagement_Dns\", \"Win32_NetworkManagement_InternetConnectionWizard\", \"Win32_NetworkManagement_IpHelper\", \"Win32_NetworkManagement_MobileBroadband\", \"Win32_NetworkManagement_Multicast\", \"Win32_NetworkManagement_Ndis\", \"Win32_NetworkManagement_NetBios\", \"Win32_NetworkManagement_NetManagement\", \"Win32_NetworkManagement_NetShell\", \"Win32_NetworkManagement_NetworkDiagnosticsFramework\", \"Win32_NetworkManagement_NetworkPolicyServer\", \"Win32_NetworkManagement_P2P\", \"Win32_NetworkManagement_QoS\", \"Win32_NetworkManagement_Rras\", \"Win32_NetworkManagement_Snmp\", \"Win32_NetworkManagement_WNet\", \"Win32_NetworkManagement_WebDav\", \"Win32_NetworkManagement_WiFi\", \"Win32_NetworkManagement_WindowsConnectNow\", \"Win32_NetworkManagement_WindowsConnectionManager\", \"Win32_NetworkManagement_WindowsFilteringPlatform\", \"Win32_NetworkManagement_WindowsFirewall\", \"Win32_NetworkManagement_WindowsNetworkVirtualization\", \"Win32_Networking\", \"Win32_Networking_ActiveDirectory\", \"Win32_Networking_BackgroundIntelligentTransferService\", \"Win32_Networking_Clustering\", \"Win32_Networking_HttpServer\", \"Win32_Networking_Ldap\", \"Win32_Networking_NetworkListManager\", \"Win32_Networking_RemoteDifferentialCompression\", \"Win32_Networking_WebSocket\", \"Win32_Networking_WinHttp\", \"Win32_Networking_WinInet\", \"Win32_Networking_WinSock\", \"Win32_Networking_WindowsWebServices\", \"Win32_Security\", \"Win32_Security_AppLocker\", \"Win32_Security_Authentication\", \"Win32_Security_Authentication_Identity\", \"Win32_Security_Authentication_Identity_Provider\", \"Win32_Security_Authorization\", \"Win32_Security_Authorization_UI\", \"Win32_Security_ConfigurationSnapin\", \"Win32_Security_Credentials\", \"Win32_Security_Cryptography\", \"Win32_Security_Cryptography_Catalog\", \"Win32_Security_Cryptography_Certificates\", \"Win32_Security_Cryptography_Sip\", \"Win32_Security_Cryptography_UI\", \"Win32_Security_DiagnosticDataQuery\", \"Win32_Security_DirectoryServices\", \"Win32_Security_EnterpriseData\", \"Win32_Security_ExtensibleAuthenticationProtocol\", \"Win32_Security_Isolation\", \"Win32_Security_LicenseProtection\", \"Win32_Security_NetworkAccessProtection\", \"Win32_Security_Tpm\", \"Win32_Security_WinTrust\", \"Win32_Security_WinWlx\", \"Win32_Storage\", \"Win32_Storage_Cabinets\", \"Win32_Storage_CloudFilters\", \"Win32_Storage_Compression\", \"Win32_Storage_DataDeduplication\", \"Win32_Storage_DistributedFileSystem\", \"Win32_Storage_EnhancedStorage\", \"Win32_Storage_FileHistory\", \"Win32_Storage_FileServerResourceManager\", \"Win32_Storage_FileSystem\", \"Win32_Storage_Imapi\", \"Win32_Storage_IndexServer\", \"Win32_Storage_InstallableFileSystems\", \"Win32_Storage_IscsiDisc\", \"Win32_Storage_Jet\", \"Win32_Storage_Nvme\", \"Win32_Storage_OfflineFiles\", \"Win32_Storage_OperationRecorder\", \"Win32_Storage_Packaging\", \"Win32_Storage_Packaging_Appx\", \"Win32_Storage_Packaging_Opc\", \"Win32_Storage_ProjectedFileSystem\", \"Win32_Storage_StructuredStorage\", \"Win32_Storage_Vhd\", \"Win32_Storage_VirtualDiskService\", \"Win32_Storage_Vss\", \"Win32_Storage_Xps\", \"Win32_Storage_Xps_Printing\", \"Win32_System\", \"Win32_System_AddressBook\", \"Win32_System_Antimalware\", \"Win32_System_ApplicationInstallationAndServicing\", \"Win32_System_ApplicationVerifier\", \"Win32_System_AssessmentTool\", \"Win32_System_ClrHosting\", \"Win32_System_Com\", \"Win32_System_Com_CallObj\", \"Win32_System_Com_ChannelCredentials\", \"Win32_System_Com_Events\", \"Win32_System_Com_Marshal\", \"Win32_System_Com_StructuredStorage\", \"Win32_System_Com_UI\", \"Win32_System_Com_Urlmon\", \"Win32_System_ComponentServices\", \"Win32_System_Console\", \"Win32_System_Contacts\", \"Win32_System_CorrelationVector\", \"Win32_System_DataExchange\", \"Win32_System_DeploymentServices\", \"Win32_System_DesktopSharing\", \"Win32_System_DeveloperLicensing\", \"Win32_System_Diagnostics\", \"Win32_System_Diagnostics_Ceip\", \"Win32_System_Diagnostics_ClrProfiling\", \"Win32_System_Diagnostics_Debug\", \"Win32_System_Diagnostics_Debug_ActiveScript\", \"Win32_System_Diagnostics_Debug_Extensions\", \"Win32_System_Diagnostics_Etw\", \"Win32_System_Diagnostics_ProcessSnapshotting\", \"Win32_System_Diagnostics_ToolHelp\", \"Win32_System_Diagnostics_TraceLogging\", \"Win32_System_DistributedTransactionCoordinator\", \"Win32_System_Environment\", \"Win32_System_ErrorReporting\", \"Win32_System_EventCollector\", \"Win32_System_EventLog\", \"Win32_System_EventNotificationService\", \"Win32_System_GroupPolicy\", \"Win32_System_HostCompute\", \"Win32_System_HostComputeNetwork\", \"Win32_System_HostComputeSystem\", \"Win32_System_Hypervisor\", \"Win32_System_IO\", \"Win32_System_Iis\", \"Win32_System_Ioctl\", \"Win32_System_JobObjects\", \"Win32_System_Js\", \"Win32_System_Kernel\", \"Win32_System_LibraryLoader\", \"Win32_System_Mailslots\", \"Win32_System_Mapi\", \"Win32_System_Memory\", \"Win32_System_Memory_NonVolatile\", \"Win32_System_MessageQueuing\", \"Win32_System_MixedReality\", \"Win32_System_Mmc\", \"Win32_System_Ole\", \"Win32_System_ParentalControls\", \"Win32_System_PasswordManagement\", \"Win32_System_Performance\", \"Win32_System_Performance_HardwareCounterProfiling\", \"Win32_System_Pipes\", \"Win32_System_Power\", \"Win32_System_ProcessStatus\", \"Win32_System_RealTimeCommunications\", \"Win32_System_Recovery\", \"Win32_System_Registry\", \"Win32_System_RemoteAssistance\", \"Win32_System_RemoteDesktop\", \"Win32_System_RemoteManagement\", \"Win32_System_RestartManager\", \"Win32_System_Restore\", \"Win32_System_Rpc\", \"Win32_System_Search\", \"Win32_System_Search_Common\", \"Win32_System_SecurityCenter\", \"Win32_System_ServerBackup\", \"Win32_System_Services\", \"Win32_System_SettingsManagementInfrastructure\", \"Win32_System_SetupAndMigration\", \"Win32_System_Shutdown\", \"Win32_System_SideShow\", \"Win32_System_StationsAndDesktops\", \"Win32_System_SubsystemForLinux\", \"Win32_System_SystemInformation\", \"Win32_System_SystemServices\", \"Win32_System_TaskScheduler\", \"Win32_System_Threading\", \"Win32_System_Time\", \"Win32_System_TpmBaseServices\", \"Win32_System_TransactionServer\", \"Win32_System_UpdateAgent\", \"Win32_System_UpdateAssessment\", \"Win32_System_UserAccessLogging\", \"Win32_System_Variant\", \"Win32_System_VirtualDosMachines\", \"Win32_System_WinRT\", \"Win32_System_WinRT_AllJoyn\", \"Win32_System_WinRT_Composition\", \"Win32_System_WinRT_CoreInputView\", \"Win32_System_WinRT_Direct3D11\", \"Win32_System_WinRT_Display\", \"Win32_System_WinRT_Graphics\", \"Win32_System_WinRT_Graphics_Capture\", \"Win32_System_WinRT_Graphics_Direct2D\", \"Win32_System_WinRT_Graphics_Imaging\", \"Win32_System_WinRT_Holographic\", \"Win32_System_WinRT_Isolation\", \"Win32_System_WinRT_ML\", \"Win32_System_WinRT_Media\", \"Win32_System_WinRT_Metadata\", \"Win32_System_WinRT_Pdf\", \"Win32_System_WinRT_Printing\", \"Win32_System_WinRT_Shell\", \"Win32_System_WinRT_Storage\", \"Win32_System_WindowsProgramming\", \"Win32_System_WindowsSync\", \"Win32_System_Wmi\", \"Win32_UI\", \"Win32_UI_Accessibility\", \"Win32_UI_Animation\", \"Win32_UI_ColorSystem\", \"Win32_UI_Controls\", \"Win32_UI_Controls_Dialogs\", \"Win32_UI_Controls_RichEdit\", \"Win32_UI_HiDpi\", \"Win32_UI_Input\", \"Win32_UI_Input_Ime\", \"Win32_UI_Input_Ink\", \"Win32_UI_Input_KeyboardAndMouse\", \"Win32_UI_Input_Pointer\", \"Win32_UI_Input_Radial\", \"Win32_UI_Input_Touch\", \"Win32_UI_Input_XboxController\", \"Win32_UI_InteractionContext\", \"Win32_UI_LegacyWindowsEnvironmentFeatures\", \"Win32_UI_Magnification\", \"Win32_UI_Notifications\", \"Win32_UI_Ribbon\", \"Win32_UI_Shell\", \"Win32_UI_Shell_Common\", \"Win32_UI_Shell_PropertiesSystem\", \"Win32_UI_TabletPC\", \"Win32_UI_TextServices\", \"Win32_UI_WindowsAndMessaging\", \"Win32_UI_Wpf\", \"Win32_Web\", \"Win32_Web_InternetExplorer\", \"default\", \"deprecated\", \"docs\", \"std\"))" -C metadata=6a8008ce602f0e78 -C extra-filename=-ceae99c0a989cebc --out-dir Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps -L dependency=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps --extern windows_collections=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libwindows_collections-097aa6fb22a7289e.rmeta --extern windows_core=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libwindows_core-f43a0f575f34387c.rmeta --extern windows_future=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libwindows_future-7864f3c5766b67f6.rmeta --extern windows_link=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libwindows_link-57ba8aff965a95b7.rmeta --extern windows_numerics=Z:\pluely\pluely-v0.1.9\src-tauri\target\debug\deps\libwindows_numerics-14948dbb746a0337.rmeta --cap-lints allow` (exit code: 0xc0000409, STATUS_STACK_BUFFER_OVERRUN)
+error[E0463]: can't find crate for `tauri_utils`
+  --> C:\Users\LENOVO\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-plugin-fs-2.4.2\build.rs:10:5
+   |
+10 | use tauri_utils::acl::manifest::PermissionFile;
+   |     ^^^^^^^^^^^ can't find crate
+
+error[E0463]: can't find crate for `tauri_utils`
+   --> C:\Users\LENOVO\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-plugin-fs-2.4.2\build.rs:212:5
+    |
+212 |     tauri_plugin::Builder::new(
+    |     ^^^^^^^^^^^^ can't find crate
+
+error[E0282]: type annotations needed
+   --> C:\Users\LENOVO\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-macros-2.4.0\src\context.rs:153:15
+    |
+153 |     .map_err(|e| e.to_string())
+    |               ^  - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type
+    |
+153 |     .map_err(|e: /* Type */| e.to_string())
+    |                ++++++++++++
+
+error[E0282]: type annotations needed
+   --> C:\Users\LENOVO\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-macros-2.4.0\src\context.rs:163:53
+    |
+163 |     .and_then(|data| context_codegen(data).map_err(|e| e.to_string()));
+    |                                                     ^  - type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type
+    |
+163 |     .and_then(|data| context_codegen(data).map_err(|e: /* Type */| e.to_string()));
+    |                                                      ++++++++++++
+
+error[E0282]: type annotations needed
+   --> C:\Users\LENOVO\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-macros-2.4.0\src\lib.rs:212:68
+    |
+212 |   match CachedIcon::new(&quote!(::tauri), &resolved_path).map_err(|error| error.to_string()) {
+    |                                                                    ^^^^^  ----- type must be known at this point
+    |
+help: consider giving this closure parameter an explicit type
+    |
+212 |   match CachedIcon::new(&quote!(::tauri), &resolved_path).map_err(|error: /* Type */| error.to_string()) {
+    |                                                                         ++++++++++++
+
+error[E0282]: type annotations needed
+   --> C:\Users\LENOVO\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-macros-2.4.0\src\lib.rs:213:17
+    |
+213 |     Ok(icon) => icon.into_token_stream(),
+    |                 ^^^^ cannot infer type
+
+For more information about this error, try `rustc --explain E0463`.
+error: could not compile `tauri-plugin-fs` (build script) due to 2 previous errors
+Some errors have detailed explanations: E0282, E0463.
+For more information about an error, try `rustc --explain E0282`.
+error: could not compile `tauri-macros` (lib) due to 6 previous errors
+error: crate `kuchikiki` required to be available in rlib format, but was not found in this form
+
+error: could not compile `tauri` (build script) due to 1 previous error
